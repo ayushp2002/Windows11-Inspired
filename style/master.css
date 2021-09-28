@@ -1,5 +1,8 @@
+@import url('http://fonts.cdnfonts.com/css/segoe-ui-variable');
+
 body {
     margin: 0;
+    font-family: 'Segoe UI Variable', sans-serif;
 }
 .desktop {
     height: 100vh;
@@ -9,7 +12,7 @@ body {
     display: flex;
 }
 .taskbar {
-    background-color: rgba(215, 225, 245, .8);
+    background-color: rgba(215, 225, 245, .94);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     width: 100%;
@@ -19,20 +22,61 @@ body {
 }
 .app-icons {
     margin: auto 0 auto auto;
+    display: flex;
+    flex-direction: row;
 }
 .app-icon {
-    background-size: contain;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 2rem;
-    width: 2rem;
-    display: inline-block;
+    height: 1.7rem;
+    width: 1.7rem;
+    margin-right: 10px;
+    padding: 5px;
 }
 .tray-area {
-    margin: auto 10px auto auto;
+    margin: auto 20px auto auto;
+    display: flex;
+    flex-direction: row;
 }
-.clock {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.tray-expand-icon {
+    margin: auto 12px auto 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1.1rem;
+    width: 1.1rem;
+}
+.keyboard-format {
     font-size: 12px;
     text-align: center;
+    margin-right: 12px;
+}
+.tray-control-icons {
+    display: flex;
+    flex-direction: row;
+    margin: auto 10px auto 0;
+}
+.tray-control-icon {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1.1rem;
+    width: 1.1rem;
+    margin-right: 8px;
+}
+.clock {
+    font-size: 12px;
+    text-align: right;
+    margin-right: 7px;
+}
+.notification-indicator {
+    font-size: 11px;
+    background-color: rgb(86, 102, 177);
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    margin: auto 0;
 }
