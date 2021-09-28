@@ -12,3 +12,7 @@
 .tray-battery-icon {background-image: url("./resource/tray-battery-icon.png");height: 1.2rem;width: 1.2rem;}
 
 .recycle-bin-icon {background-image: url("./resource/empty-recycle-bin-icon.png");}
+
+.search-field-icon {background-image: url("./resource/search-field-icon.png");}
+.power-menu-icon {background-image: url("./resource/power-icon.png");}
+.profile-picture {background-image: url("./resource/user-profile-icon.png");}
