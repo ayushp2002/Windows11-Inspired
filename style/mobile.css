@@ -1,0 +1,29 @@
+.taskbar {
+    grid-template-columns: 2fr 1fr;
+}
+.app-icons {
+    margin-left: 5px;
+}
+.start-menu {
+    width: 90vw;
+    left: 10px;
+    transform: translateX(0%);
+}
+.tray-item-wrapper {
+    margin: auto 5px auto auto;
+}
+.tray-control-icons {
+    margin: auto 0px auto 0;
+}
+.tray-control-icon {
+    margin-right: 2px;
+}
+.tray-expand-icon {
+    margin: auto 0px auto 0;
+}
+.keyboard-format {
+    display: none;
+}
+.blank-grid-col {
+    display: none;
+}

@@ -3,7 +3,7 @@
 html, body {
     margin: 0;
     font-family: 'Segoe UI Variable', sans-serif;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .icon {
     background-size: contain;
@@ -124,8 +124,8 @@ html, body {
     margin: auto 0;
 }
 .start-menu {
-    width: 38vw;
-    height: 60vh;
+    width: 40vw;
+    height: 70vh;
     /* background-color: rgba(220, 230, 250, .96); */
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -137,7 +137,7 @@ html, body {
     display: grid;
     grid-template-rows: 1fr 4fr 3fr 1fr;
     border: solid 1px rgba(0, 0, 0, .3);
-    bottom: -600px;
+    bottom: -700px;
     transition-duration: .25s;
 }
 .start-section-heading {
