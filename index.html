@@ -3,36 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./style/master.css">
     <link rel="stylesheet" href="./style/icons.css">
     <title>Windows11 Inspired</title>
 </head>
 <body>
     <div class="desktop">
+        <div class="desktop-icons">
+            <div class="desktop-icon">
+                <div class="desktop-icon-image recycle-bin-icon">&nbsp;</div>
+                <div class="desktop-icon-caption">Recycle Bin</div>
+            </div>
+            <div class="desktop-icon">
+                <div class="desktop-icon-image edge-button">&nbsp;</div>
+                <div class="desktop-icon-caption">Microsoft Edge</div>
+            </div>
+        </div>
         <div class="taskbar">
+            <div class="blank-grid-col"></div>
             <div class="app-icons">
-                <div class="app-icon start-button">&nbsp;</div>
-                <div class="app-icon search-button">&nbsp;</div>
-                <div class="app-icon multitask-button">&nbsp;</div>
+                <div class="app-icon-wrapper">
+                    <div class="app-icon start-button">&nbsp;</div>
+                    <div class="app-icon search-button">&nbsp;</div>
+                    <div class="app-icon multitask-button">&nbsp;</div>
+                    <div class="app-icon widgets-button">&nbsp;</div>
+                    <div class="app-icon chat-button">&nbsp;</div>
+                    <div class="app-icon explorer-button">&nbsp;</div>
+                    <div class="app-icon edge-button">&nbsp;</div>
+                </div>
             </div>
             <div class="tray-area">
-                <div class="tray-expand-icon"></div>
-                <div class="keyboard-format">
-                    <div class="language">ENG</div>
-                    <div class="format">IN</div>
+                <div class="tray-item-wrapper">
+                    <div class="tray-expand-icon"></div>
+                    <div class="keyboard-format">
+                        <div class="language">ENG</div>
+                        <div class="format">IN</div>
+                    </div>
+                    <div class="tray-control-icons">
+                        <div class="tray-control-icon tray-wifi-icon">&nbsp;</div>
+                        <div class="tray-control-icon tray-sound-icon">&nbsp;</div>
+                        <div class="tray-control-icon tray-battery-icon">&nbsp;</div>
+                    </div>
+                    <div class="clock">
+                        <div class="time">11:26 AM</div>
+                        <div class="date">9/28/2021</div>
+                    </div>
+                    <div class="notification-indicator">1</div>
                 </div>
-                <div class="tray-control-icons">
-                    <div class="tray-control-icon tray-wifi-icon">&nbsp;</div>
-                    <div class="tray-control-icon tray-sound-icon">&nbsp;</div>
-                    <div class="tray-control-icon tray-battery-icon">&nbsp;</div>
-                </div>
-                <div class="clock">
-                    <div class="time">11:26 AM</div>
-                    <div class="date">9/28/2021</div>
-                </div>
-                <div class="notification-indicator">1</div>
             </div>
+        </div>
+    </div>
+    <div class="start-menu">
+        <div class="search-bar">
+            <div class="search-field-icon">&nbsp;</div>
+            <input type="text" placeholder="Type here to search">
         </div>
     </div>
 </body>

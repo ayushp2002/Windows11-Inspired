@@ -1,27 +1,14 @@
-.start-button {
-    background-image: url("./resource/start-button.svg");
-}
-.search-button {
-    background-image: url("./resource/search-button.svg");
-    transform: rotateZ(90deg);
-    height: 1.55rem;
-    width: 1.55rem;
-    margin-top: 1px;
-}
-.multitask-button {
-    background-image: url("./resource/multitask-button.png");
-}
-.tray-expand-icon {
-    background-image: url("./resource/tray-expand-icon.png");
-}
-.tray-sound-icon {
-    background-image: url("./resource/tray-sound-mute-icon.png");
-}
-.tray-wifi-icon {
-    background-image: url("./resource/tray-wifi-icon.png");
-}
-.tray-battery-icon {
-    background-image: url("./resource/tray-battery-icon.png");
-    height: 1.2rem;
-    width: 1.2rem;
-}
+.start-button {background-image: url("./resource/start-button.png");}
+.search-button {background-image: url("./resource/search-button.png");}
+.multitask-button {background-image: url("./resource/multitask-button.png");}
+.widgets-button {background-image: url("./resource/widgets-button.png");}
+.chat-button {background-image: url("./resource/chat-button.png");}
+.explorer-button {background-image: url("./resource/explorer-button.png");}
+.edge-button {background-image: url("./resource/edge-button.png");}
+
+.tray-expand-icon {background-image: url("./resource/tray-expand-icon.png");}
+.tray-sound-icon {background-image: url("./resource/tray-sound-mute-icon.png");}
+.tray-wifi-icon {background-image: url("./resource/tray-wifi-icon.png");}
+.tray-battery-icon {background-image: url("./resource/tray-battery-icon.png");height: 1.2rem;width: 1.2rem;}
+
+.recycle-bin-icon {background-image: url("./resource/empty-recycle-bin-icon.png");}
