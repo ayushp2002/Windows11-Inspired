@@ -3,11 +3,25 @@
 }
 .app-icons {
     margin-left: 5px;
+    z-index: 0;
 }
 .start-menu {
     width: 90vw;
     left: 10px;
     transform: translateX(0%);
+}
+.start-menu .pinned-section .pinned-apps {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.tray-area {
+    box-shadow: rgba(0, 0, 0, 0.5) -1px 5px 5px;
+    z-index: 1;
+}
+.desktop-tray-control {
+    display: none;
+}
+.mobile-tray-control {
+    display: block;
 }
 .tray-item-wrapper {
     margin: auto 5px auto auto;
@@ -16,10 +30,10 @@
     margin: auto 0px auto 0;
 }
 .tray-control-icon {
-    margin-right: 2px;
+    margin-right: 3px;
 }
 .tray-expand-icon {
-    margin: auto 0px auto 0;
+    margin: auto 5px auto 0;
 }
 .keyboard-format {
     display: none;

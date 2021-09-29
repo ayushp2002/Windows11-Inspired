@@ -40,16 +40,32 @@
             <div class="pinned-section">
                 <div class="header-row">
                     <p class="start-section-heading">Pinned</p>
-                    <button class="all-apps-button">All Apps &#8250;</button>
+                    <button><span class="button-text">All Apps</span><span class="button-icon-right extend-control-icon icon">&nbsp;</span></button>
                 </div>
                 <div class="pinned-apps">
-    
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image edge-button">&nbsp;</div><div class="pinned-icon-caption">Edge</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image mail-button">&nbsp;</div><div class="pinned-icon-caption">Mail</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image chrome-button">&nbsp;</div><div class="pinned-icon-caption">Chrome</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image word-button">&nbsp;</div><div class="pinned-icon-caption">Word</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image excel-button">&nbsp;</div><div class="pinned-icon-caption">Excel</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image onedrive-button">&nbsp;</div><div class="pinned-icon-caption">OneDrive</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image powerpoint-button">&nbsp;</div><div class="pinned-icon-caption">PowerPoint</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image outlook-button">&nbsp;</div><div class="pinned-icon-caption">Outlook</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image onenote-button">&nbsp;</div><div class="pinned-icon-caption">OneNote</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image calculator-button">&nbsp;</div><div class="pinned-icon-caption">Calculator</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image calendar-button">&nbsp;</div><div class="pinned-icon-caption">Calendar</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image paint-button">&nbsp;</div><div class="pinned-icon-caption">Paint</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image todo-button">&nbsp;</div><div class="pinned-icon-caption">ToDo</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image teams-button">&nbsp;</div><div class="pinned-icon-caption">Teams</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image photos-button">&nbsp;</div><div class="pinned-icon-caption">Photos</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image office-button">&nbsp;</div><div class="pinned-icon-caption">Office</div></div>
+                    <div class="start-pinned-icon"><div class="icon pinned-icon-image notepad-button">&nbsp;</div><div class="pinned-icon-caption">Notepad</div></div>
                 </div>
             </div>
             <div class="recommended-section">
                 <div class="header-row">
                     <p class="start-section-heading">Recommended</p>
-                    <button class="all-apps-button">More &#8250;</button>
+                    <button><span class="button-text">More</span><span class="button-icon-right extend-control-icon icon">&nbsp;</span></button>
                 </div>
                 <div class="recommendations">
     
@@ -63,6 +79,37 @@
                 <div class="icon power-menu-icon">&nbsp;</div>
             </div>
         </div>
+        <!-- Quick Settings Panel -->
+        <!-- <div class="quick-settings">
+            <div class="toggles-section">
+                <div class="quick-setting-toggle combo-toggle">
+                    <div class="toggle-button">
+                        <button class="control-button"><span class="icon tray-wifi-icon">&nbsp;</span></button>
+                        <button class="extend-control-button"><span class="icon extend-control-icon">&nbsp;</span></button>
+                    </div>
+                    <div class="quick-settings-toggle-caption">Available</div>
+                </div>
+                <div class="quick-setting-toggle">
+                    <div class="toggle-button">
+                        <button class="control-button"><span class="icon bluetooth-control-icon">&nbsp;</span></button>
+                    </div>
+                    <div class="quick-settings-toggle-caption">Not Connected</div>
+                </div>
+            </div>
+            <div class="sliders-section">
+                <div class="quick-setting-slider">
+                    <div class="icon quick-setting-slider-icon tray-sound-icon">&nbsp;</div>
+                    <input type="range" min="0" max="100" value="32" class="quick-setting-slider-control">
+                    <div class="icon quick-setting-slider-extend extend-control-icon">&nbsp;</div>
+                </div>
+            </div>
+            <div class="footer-section">
+                <div class="right-icons">
+                    <div class="icon edit-icon">&nbsp;</div>
+                    <div class="icon settings-icon">&nbsp;</div>
+                </div>
+            </div>
+        </div> -->
         <!-- Taskbar -->
         <div class="taskbar">
             <div class="blank-grid-col"></div>
@@ -85,9 +132,14 @@
                         <div class="format">IN</div>
                     </div>
                     <div class="tray-control-icons">
-                        <div class="icon tray-control-icon tray-wifi-icon">&nbsp;</div>
-                        <div class="icon tray-control-icon tray-sound-icon">&nbsp;</div>
-                        <div class="icon tray-control-icon tray-battery-icon">&nbsp;</div>
+                        <div class="desktop-tray-control">
+                            <div class="icon tray-control-icon tray-wifi-icon">&nbsp;</div>
+                            <div class="icon tray-control-icon tray-sound-icon">&nbsp;</div>
+                            <div class="icon tray-control-icon tray-battery-icon">&nbsp;</div>
+                        </div>
+                        <div class="mobile-tray-control">
+                            <div class="icon tray-control-icon tray-quick-settings-icon">&nbsp;</div>
+                        </div>
                     </div>
                     <div class="clock">
                         <div class="time">11:26 AM</div>

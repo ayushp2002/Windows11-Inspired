@@ -3,17 +3,36 @@
 .multitask-button {background-image: url("./resource/multitask-button.png");}
 .widgets-button {background-image: url("./resource/widgets-button.png");}
 .chat-button {background-image: url("./resource/chat-button.png");}
-.explorer-button {background-image: url("./resource/explorer-button.png");}
-.edge-button {background-image: url("./resource/edge-button.png");}
+.explorer-button {background-image: url("./resource/explorer-icon.png");}
+.edge-button {background-image: url("./resource/edge-icon.png");width: 38px;}
+.mail-button {background-image: url("./resource/mail-icon.png");}
+.chrome-button {background-image: url("./resource/chrome-icon.png");}
+.word-button {background-image: url("./resource/word-icon.png");}
+.excel-button {background-image: url("./resource/excel-icon.png");}
+.powerpoint-button {background-image: url("./resource/powerpoint-icon.png");}
+.onedrive-button {background-image: url("./resource/onedrive-icon.png");}
+.onenote-button {background-image: url("./resource/onenote-icon.png");}
+.outlook-button {background-image: url("./resource/outlook-icon.png");}
+.notepad-button {background-image: url("./resource/notepad-icon.png");}
+.calculator-button {background-image: url("./resource/calculator-icon.png");}
+.paint-button {background-image: url("./resource/paint-icon.png");}
+.calendar-button {background-image: url("./resource/calendar-icon.png");}
+.office-button {background-image: url("./resource/office-icon.png");}
+.todo-button {background-image: url("./resource/todo-icon.png");}
+.teams-button {background-image: url("./resource/teams-icon.png");}
+.photos-button {background-image: url("./resource/photos-icon.png");}
 
 .tray-expand-icon {background-image: url("./resource/tray-expand-icon.png");}
 .tray-sound-icon {background-image: url("./resource/tray-sound-mute-icon.png");}
 .tray-wifi-icon {background-image: url("./resource/tray-wifi-icon.png");}
 .tray-battery-icon {background-image: url("./resource/tray-battery-icon.png");height: 1.2rem;width: 1.2rem;}
+.tray-quick-settings-icon {background-image: url("./resource/quick-settings-icon.png");}
+
+.extend-control-icon {background-image: url("./resource/tray-expand-icon.png");rotate: 90deg;}
+.bluetooth-control-icon {background-image: url("./resource/bluetooth-setting-icon.png");}
 
 .recycle-bin-icon {background-image: url("./resource/empty-recycle-bin-icon.png");}
 
-.search-field-icon {background-image: url("./resource/search-field-icon.png");
-    transform: rotateZ(90deg);}
+.search-field-icon {background-image: url("./resource/search-field-icon.png");transform: rotateZ(90deg);}
 .power-menu-icon {background-image: url("./resource/power-icon.png");}
 .profile-picture {background-image: url("./resource/user-profile-icon.png");}
