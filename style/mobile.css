@@ -41,3 +41,6 @@
 .blank-grid-col {
     display: none;
 }
+.quick-settings {
+    width: 80vw;
+}

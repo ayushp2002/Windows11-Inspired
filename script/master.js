@@ -8,12 +8,22 @@ $(document).ready(function () {
     var date = dt.getDate() + "/" + dt.getMonth() + "/" + dt.getFullYear()
     $(".time").text(time);
     $(".date").text(date);
+
+    // Start menu toggle
     $(".start-button").on("click", function () {
         if ($(".start-menu").css("bottom") == "-700px") {
             $(".start-menu").css("bottom", ($(".taskbar").height() + 12) + "px");
         } else {
-            console.log($(".start-menu").css("bottom"));
             $(".start-menu").css("bottom", "-700px");
+        }
+    });
+
+    // Quick settings toggle
+    $(".tray-control-icons").on("click", function () {
+        if ($(".quick-settings").css("right") == "-700px") {
+            $(".quick-settings").css("right", "12px");
+        } else {
+            $(".quick-settings").css("right", "-700px");
         }
     });
 });

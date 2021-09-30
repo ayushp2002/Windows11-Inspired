@@ -1,5 +1,11 @@
 @import url('http://fonts.cdnfonts.com/css/segoe-ui-variable');
 
+* {
+    transition-duration: 0.2s;
+    -webkit-user-select: none;
+    user-select: none;
+    cursor: default;
+}
 html, body {
     margin: 0;
     font-family: 'Segoe UI Variable', sans-serif;
@@ -70,11 +76,11 @@ html, body {
     flex-direction: row;
 }
 .app-icon {
-    background-size: 80%;
+    background-size: 65%;
     height: 1.2rem;
     width: 1.2rem;
     margin-right: 15px;
-    padding: 5px;
+    padding: 10px;
 }
 .tray-area {
     display: flex;
@@ -143,8 +149,8 @@ html, body {
     display: grid;
     grid-template-rows: 1fr 4fr 3fr 1fr;
     border: solid 1px rgba(0, 0, 0, .3);
-    /* bottom: -700px; */
-    bottom: 60px;
+    bottom: -700px;
+    /* bottom: 60px; */
     transition-duration: .25s;
 }
 .start-menu .search-bar-section {
@@ -159,7 +165,7 @@ html, body {
     width: auto;
     height: 2rem;
     background-color: white;
-    border-radius: 3px;
+    border-radius: 4px;
     border: solid 1px rgba(0, 0, 0, .3);
     border-bottom: solid 2px rgb(65, 76, 144);
     padding: 2px 5px;
@@ -269,4 +275,35 @@ button {
     margin: auto 25px auto auto;
     width: 1.2rem;
     height: 1.2rem;
+}
+.quick-settings {
+    width: 23vw;
+    height: 35vh;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, .3) 0px 5px 10px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 5fr 4fr 2fr;
+    border: solid 1px rgba(0, 0, 0, .3);
+    bottom: 60px;
+    right: 12px;
+    transition-duration: .25s;
+}
+.quick-settings .toggles-section {
+    background-color: rgba(220, 230, 250, .98);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.quick-settings .sliders-section {
+    background-color: rgba(220, 230, 250, .98);
+}
+.quick-settings .footer-section {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(220, 230, 250, .85);
+    border-top: solid 1px rgba(0, 0, 0, .3);
+    display: flex;
+    flex-direction: row;
 }
