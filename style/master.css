@@ -288,16 +288,18 @@ button {
     grid-template-rows: 5fr 4fr 2fr;
     border: solid 1px rgba(0, 0, 0, .3);
     bottom: 60px;
-    right: 12px;
+    right: -700px;
     transition-duration: .25s;
 }
 .quick-settings .toggles-section {
     background-color: rgba(220, 230, 250, .98);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    padding: 25px;
 }
 .quick-settings .sliders-section {
     background-color: rgba(220, 230, 250, .98);
+    padding: 25px;
 }
 .quick-settings .footer-section {
     border-bottom-left-radius: 10px;
