@@ -18,21 +18,29 @@ $(document).ready(function () {
             $(".start-menu").css("bottom", "-700px");
             e.stopPropagation();
         }
-        $(document).on("click", function () {
-            if ($(e.target).closest("#start-menu").length === 0) {
-                $(".start-menu").css("bottom", "-700px");
-                e.stopPropagation();
-            }
-        });
+    });
+    $(document).on("click", function (e) {
+        if (!$(".start-menu").is(e.target) && $(".start-menu").has(e.target).length === 0) {
+            $(".start-menu").css("bottom", "-700px");
+            e.stopPropagation();
+        }
     });
 
-    $(".quick-settings").css("bottom", ($(".taskbar").height() + 12) + "px");
     // Quick settings toggle
-    $(".tray-control-icons").on("click", function () {
+    $(".tray-control-icons").on("click", function (e) {
         if ($(".quick-settings").css("right") == "-700px") {
             $(".quick-settings").css("right", "12px");
+            $(".quick-settings").css("bottom", ($(".taskbar").height() + 12) + "px");
+            e.stopPropagation();
         } else {
             $(".quick-settings").css("right", "-700px");
+            e.stopPropagation();
+        }
+    });
+    $(document).on("click", function (e) {
+        if (!$(".quick-settings").is(e.target) && $(".quick-settings").has(e.target).length === 0) {
+            $(".quick-settings").css("right", "-700px");
+            e.stopPropagation();
         }
     });
 });
