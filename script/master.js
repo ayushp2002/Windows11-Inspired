@@ -46,6 +46,52 @@ $(document).ready(function () {
 
     // Brightness slider function
     $(".brightness-slider").on("input", function () {
+        // change brightness
         $(".brightness-overlay").css("opacity", 1 - ($(".brightness-slider").val()/100));
+        // change icon
+        var val = $(".brightness-slider").val();
+        if (val >= 0 && val <= 33) {
+            $(".brightness-icon").removeClass("brightness-mute-icon");
+            $(".brightness-icon").addClass("brightness-min-icon");
+            $(".brightness-icon").removeClass("brightness-mid-icon");
+            $(".brightness-icon").removeClass("brightness-max-icon");
+        } else if (val > 33 && val <= 66) {
+            $(".brightness-icon").removeClass("brightness-mute-icon");
+            $(".brightness-icon").removeClass("brightness-min-icon");
+            $(".brightness-icon").addClass("brightness-mid-icon");
+            $(".brightness-icon").removeClass("brightness-max-icon");
+        } else if (val > 66 && val <= 100) {
+            $(".brightness-icon").removeClass("brightness-mute-icon");
+            $(".brightness-icon").removeClass("brightness-min-icon");
+            $(".brightness-icon").removeClass("brightness-mid-icon");
+            $(".brightness-icon").addClass("brightness-max-icon");
+        }
+    });
+
+    // Sound slider function
+    $(".sound-slider").on("input", function () {
+        // change icon
+        var val = $(".sound-slider").val();
+        if (val == 0) {
+            $(".sound-icon").addClass("sound-mute-icon");
+            $(".sound-icon").removeClass("sound-min-icon");
+            $(".sound-icon").removeClass("sound-mid-icon");
+            $(".sound-icon").removeClass("sound-max-icon");
+        } else if (val > 0 && val <= 33) {
+            $(".sound-icon").removeClass("sound-mute-icon");
+            $(".sound-icon").addClass("sound-min-icon");
+            $(".sound-icon").removeClass("sound-mid-icon");
+            $(".sound-icon").removeClass("sound-max-icon");
+        } else if (val > 33 && val <= 66) {
+            $(".sound-icon").removeClass("sound-mute-icon");
+            $(".sound-icon").removeClass("sound-min-icon");
+            $(".sound-icon").addClass("sound-mid-icon");
+            $(".sound-icon").removeClass("sound-max-icon");
+        } else if (val > 66 && val <= 100) {
+            $(".sound-icon").removeClass("sound-mute-icon");
+            $(".sound-icon").removeClass("sound-min-icon");
+            $(".sound-icon").removeClass("sound-mid-icon");
+            $(".sound-icon").addClass("sound-max-icon");
+        }
     });
 });

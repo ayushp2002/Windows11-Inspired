@@ -24,14 +24,21 @@
 .photos-button {background-image: url("./resource/photos-icon.png");}
 
 .tray-expand-icon {background-image: url("./resource/tray-expand-icon.png");}
-.tray-sound-icon {background-image: url("./resource/tray-sound-mute-icon.png");}
 .tray-wifi-icon {background-image: url("./resource/tray-wifi-icon.png");}
 .tray-battery-icon {background-image: url("./resource/tray-battery-icon.png");}
 .tray-quick-settings-icon {background-image: url("./resource/quick-settings-icon.png");}
 
+.sound-mute-icon {background-image: url("./resource/sound-mute-icon.png");}
+.sound-min-icon {background-image: url("./resource/sound-min-icon.png");}
+.sound-mid-icon {background-image: url("./resource/sound-mid-icon.png");}
+.sound-max-icon {background-image: url("./resource/sound-max-icon.png");}
+
 .extend-control-icon {background-image: url("./resource/tray-expand-icon.png");}
 .bluetooth-control-icon {background-image: url("./resource/bluetooth-setting-icon.png");}
-.brightness-icon {background-image: url("./resource/brightness-icon.png");}
+
+.brightness-min-icon {background-image: url("./resource/brightness-min-icon.png");}
+.brightness-mid-icon {background-image: url("./resource/brightness-mid-icon.png");}
+.brightness-max-icon {background-image: url("./resource/brightness-max-icon.png");}
 
 .recycle-bin-icon {background-image: url("./resource/empty-recycle-bin-icon.png");}
 
