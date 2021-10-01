@@ -17,6 +17,7 @@
     <title>Windows11 Inspired</title>
 </head>
 <body>
+    <div class="brightness-overlay">&nbsp;</div>
     <div class="desktop">
         <!-- Desktop Icons -->
         <div class="desktop-icons">
@@ -99,7 +100,12 @@
             <div class="sliders-section">
                 <div class="quick-setting-slider">
                     <div class="icon quick-setting-slider-icon tray-sound-icon">&nbsp;</div>
-                    <input type="range" min="0" max="100" value="32" class="quick-setting-slider-control">
+                    <input type="range" min="0" max="100" value="0" class="quick-setting-slider-control">
+                    <div class="icon quick-setting-slider-extend extend-control-icon">&nbsp;</div>
+                </div>
+                <div class="quick-setting-slider">
+                    <div class="icon quick-setting-slider-icon brightness-icon">&nbsp;</div>
+                    <input type="range" min="0" max="100" value="100" class="quick-setting-slider-control brightness-slider">
                     <div class="icon quick-setting-slider-extend extend-control-icon">&nbsp;</div>
                 </div>
             </div>

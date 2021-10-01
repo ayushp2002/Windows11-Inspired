@@ -43,4 +43,9 @@ $(document).ready(function () {
             e.stopPropagation();
         }
     });
+
+    // Brightness slider function
+    $(".brightness-slider").on("input", function () {
+        $(".brightness-overlay").css("opacity", 1 - ($(".brightness-slider").val()/100));
+    });
 });

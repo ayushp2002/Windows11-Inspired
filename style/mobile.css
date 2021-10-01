@@ -43,4 +43,8 @@
 }
 .quick-settings {
     width: 80vw;
+    height: 45vh;
+}
+.quick-settings .quick-setting-slider {
+    margin: auto auto 20px auto;
 }
