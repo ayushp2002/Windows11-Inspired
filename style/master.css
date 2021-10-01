@@ -288,7 +288,8 @@ button {
     grid-template-rows: 3fr 2fr 1fr;
     border: solid 1px rgba(0, 0, 0, .3);
     bottom: 60px;
-    right: -700px;
+    /* right: -700px; */
+    right: 12px;
     transition-duration: .25s;
 }
 .quick-settings .toggles-section {
@@ -306,4 +307,25 @@ button {
     border-top: solid 1px rgba(0, 0, 0, .3);
     display: flex;
     flex-direction: row;
+}
+.quick-settings .footer-section .right-icons {
+    margin: auto 25px auto auto;
+    display: flex;
+    flex-direction: row;
+}
+.quick-settings .footer-section .right-icon {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-left: 15px;
+}
+.quick-settings .footer-section .left-icons {
+    margin: auto auto auto 25px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+}
+.quick-settings .footer-section .left-icon {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-right: 5px;
 }

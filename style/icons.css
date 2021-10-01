@@ -37,6 +37,8 @@
 .search-field-icon {background-image: url("./resource/search-field-icon.png");}
 .power-icon {background-image: url("./resource/power-icon.png");}
 .profile-picture {background-image: url("./resource/user-profile-icon.png");}
+.edit-icon {background-image: url("./resource/edit-icon.png");}
+.settings-icon {background-image: url("./resource/settings-icon.png");}
 
 /* Icon Styling */
 .start-button {
